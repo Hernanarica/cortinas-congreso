@@ -1,0 +1,29 @@
+.wrapper-content__header {
+    background-color: var(--bgOne);
+    font: var(--bodyLine2-sm);
+}
+
+.header {
+    padding: 1rem;
+}
+
+.header__title {
+    font-size: 0;
+}
+
+.header__logo {
+    block-size: 50px;
+}
+
+.header__menu {
+    padding: 0;
+}
+
+.header__item {
+    list-style: none;
+}
+
+.header__link {
+    color: var(--colorOne);
+    text-decoration: none;
+}

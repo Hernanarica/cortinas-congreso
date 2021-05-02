@@ -17,29 +17,37 @@ if (!isset($section[ $currentSection ])) {
 	</head>
 	<body>
 		<header>
-			<h1></h1>
-			<nav>
-				<ul>
-					<li>
-						<a href="index.php?s=home">home</a>
-					</li>
-					<li>
-						<a href="index.php?s=nosotros">nosotros</a>
-					</li>
-					<li>
-						<a href="index.php?s=persianas">persianas</a>
-					</li>
-					<li>
-						<a href="index.php?s=puertas-plegadizas">puertas-plegadizas</a>
-					</li>
-					<li>
-						<a href="index.php?s=accesorios">accesorios</a>
-					</li>
-					<li>
-						<a href="index.php?s=contacto">contacto</a>
-					</li>
-				</ul>
-			</nav>
+			<div class="wrapper">
+				<div class="wrapper-content__header">
+					<div class="header">
+						<h1 class="header__title">Cortinas congreso
+							<img src="src/assets/icons/icon__logo.svg" alt="logo cortinas congreso" class="header__logo">
+						</h1>
+						<nav class="header__navbar">
+							<ul class="header__menu">
+								<li class="header__item">
+									<a href="index.php?s=home" class="header__link header__link--hover">home</a>
+								</li>
+								<li class="header__item">
+									<a href="index.php?s=nosotros" class="header__link header__link--hover">nosotros</a>
+								</li>
+								<li class="header__item">
+									<a href="index.php?s=persianas" class="header__link header__link--hover">persianas</a>
+								</li>
+								<li class="header__item">
+									<a href="index.php?s=puertas-plegadizas" class="header__link header__link--hover">puertas-plegadizas</a>
+								</li>
+								<li class="header__item">
+									<a href="index.php?s=accesorios" class="header__link header__link--hover">accesorios</a>
+								</li>
+								<li class="header__item">
+									<a href="index.php?s=contacto" class="header__link header__link--hover">contacto</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
 		</header>
 		<main>
 			<?php
