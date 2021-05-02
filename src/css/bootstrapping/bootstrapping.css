@@ -1,0 +1,45 @@
+/* -------- componentes -------- */
+/*
+    Este documento contiene valores iniciales de mis componentes (contenedores,
+    selectores, fuentes etc..) padres para luego en caso de ser solicitado,
+    poder ser modificado de una manera mucho más rápida y eficiente.
+*/
+/* -------- (Designaciones) -------- */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url(../../fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url(../../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url(../../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url(../../fonts/Lato-Black.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    max-inline-size: 1366px;
+    inline-size: 100%;
+}
+
+.wrapper__content {
+    margin-inline: auto;
+}

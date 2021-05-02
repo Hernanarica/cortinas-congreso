@@ -1,0 +1,7 @@
+/* Imports de mis archivos de inicialización */
+@import "bootstrapping/normalize.css";
+@import "bootstrapping/variables.css";
+@import "bootstrapping/bootstrapping.css";
+
+/* Imports de estilos de la página */
+@import "components/TheHeader.css";
