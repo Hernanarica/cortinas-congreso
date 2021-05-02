@@ -2,20 +2,11 @@
 :root {
     /* Base font */
     --fontBase: "lato", sans-serif;
-    /* Titles |*/
-    --headLine1-sm: 900 1.5rem var(--fontBase);
-    --headLine1-md: 900 1.625rem var(--fontBase);
-    --headLine1-xl: 900 1.75rem var(--fontBase);
-    --headLine2-sm: 700 1.25rem var(--fontBase);
-    --headLine2-md: 700 1.375rem var(--fontBase);
-    --headLine2-xl: 700 1.5rem var(--fontBase);
-    /* Texts */
-    --bodyLine1-sm: 400 0.875rem var(--fontBase);
-    --bodyLine1-md: 400 1rem var(--fontBase);
-    --bodyLine1-xl: 400 1.125rem var(--fontBase);
-    --bodyLine2-sm: 300 0.875rem var(--fontBase);
-    --bodyLine2-md: 300 1rem var(--fontBase);
-    --bodyLine2-xl: 300 1.125rem var(--fontBase);
+    /* Text footer*/
+    --footerHead1-sm: 700 1rem var(--fontBase);
+    --footerHead1-md: 700 1.2rem var(--fontBase);
+    --footerBody1-sm: 300 0.875rem var(--fontBase);
+    --footerBody1-md: 300 1rem var(--fontBase);
     /* Colors */
     --colorOne: #fafafa;
     --colorTwo: #212121;
@@ -24,6 +15,7 @@
     --bgOne: #e65100;
     --bgTwo: #ed8e07;
     --bgThree: #ffad0e;
+    --bgSix: #FF7901;
     --bgFour: #757575;
     --bgFive: #fafafa;
 }

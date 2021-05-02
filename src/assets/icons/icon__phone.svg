@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#ED8E07;}
-</style>
-<g>
-	<g>
-		<path class="st0" d="M49.1,36.7l-7-7c-2.5-2.5-6.7-1.5-7.7,1.7c-0.7,2.2-3.2,3.5-5.5,3c-5-1.2-11.7-7.7-13-13
-			c-0.7-2.2,0.7-4.7,3-5.5c3.2-1,4.2-5.2,1.7-7.7l-7-7c-2-1.7-5-1.7-6.7,0L2.3,6c-4.7,5,0.5,18.2,12.2,29.9s24.9,17.2,29.9,12.2
-			l4.7-4.7C50.9,41.4,50.9,38.4,49.1,36.7z"/>
-	</g>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M15.712 11.7439L13.472 9.50385C12.672 8.70385 11.328 9.02385 11.008 10.0479C10.784 10.7519 9.98402 11.1679 9.24802 11.0079C7.64802 10.6239 5.50404 8.54385 5.08804 6.84785C4.86404 6.14383 5.31203 5.34383 6.04803 5.08783C7.07202 4.76783 7.39202 3.42383 6.59203 2.62383L4.35204 0.38383C3.71204 -0.16017 2.75203 -0.16017 2.20803 0.38383L0.736035 1.91983C-0.767965 3.51983 0.896035 7.74385 4.64004 11.4879C8.38402 15.2319 12.608 16.9919 14.208 15.3919L15.712 13.8879C16.288 13.2479 16.288 12.2879 15.712 11.7439Z" fill="white"/>
 </g>
+<defs>
+<clipPath id="clip0">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
 </svg>

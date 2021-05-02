@@ -11,6 +11,8 @@ if (!isset($section[ $currentSection ])) {
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="src/css/index.css">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title><?php echo $section[ $currentSection ][ "title" ]; ?></title>
@@ -21,38 +23,106 @@ if (!isset($section[ $currentSection ])) {
 				<div class="wrapper-content__header">
 					<div class="header">
 						<h1 class="header__title">Cortinas congreso
-							<img src="src/assets/icons/icon__logo.svg" alt="logo cortinas congreso" class="header__logo">
+							<a href="index.php?s=home">
+								<img src="src/assets/icons/icon__logo.svg" alt="logo cortinas congreso" class="header__logo">
+							</a>
 						</h1>
 						<nav class="header__navbar">
 							<ul class="header__menu">
 								<li class="header__item">
-									<a href="index.php?s=home" class="header__link header__link--hover">home</a>
+									<a href="index.php?s=home" class="header__link header__link--hover">Home</a>
 								</li>
 								<li class="header__item">
-									<a href="index.php?s=nosotros" class="header__link header__link--hover">nosotros</a>
+									<a href="index.php?s=nosotros" class="header__link header__link--hover">Nosotros</a>
 								</li>
 								<li class="header__item">
-									<a href="index.php?s=persianas" class="header__link header__link--hover">persianas</a>
+									<a href="#" class="header__link header__link--hover">Productos
+										<img src="src/assets/icons/icon__arrow.svg" alt="arrow" class="header__arrow-icon">
+									</a>
+									<ul class="header__submenu">
+										<li class="header__submenu-item">
+											<a href="index.php?s=persianas" class="header__submenu-link">Persianas</a>
+										</li>
+										<li class="header__submenu-item">
+											<a href="index.php?s=puertas-plegadizas" class="header__submenu-link">Puertas plegadizas</a>
+										</li>
+										<li class="header__submenu-item">
+											<a href="index.php?s=accesorios" class="header__submenu-link">Accesorios</a>
+										</li>
+									</ul>
 								</li>
 								<li class="header__item">
-									<a href="index.php?s=puertas-plegadizas" class="header__link header__link--hover">puertas-plegadizas</a>
-								</li>
-								<li class="header__item">
-									<a href="index.php?s=accesorios" class="header__link header__link--hover">accesorios</a>
-								</li>
-								<li class="header__item">
-									<a href="index.php?s=contacto" class="header__link header__link--hover">contacto</a>
+									<a href="index.php?s=contacto" class="header__link header__link--hover">Contacto</a>
 								</li>
 							</ul>
 						</nav>
+						<button class="header__btn">
+							<img src="src/assets/icons/icon__menu-open.svg" alt="icon navbar" class="header__btn-icon">
+						</button>
 					</div>
 				</div>
 			</div>
 		</header>
 		<main>
-			<?php
-			require_once "src/sections/{$currentSection}.php";
-			?>
+			<div class="wrapper">
+				<div class="wrapper__content-main">
+					<?php
+					require_once "src/sections/{$currentSection}.php";
+					?>
+				</div>
+			</div>
 		</main>
+		<footer>
+			<div class="wrapper">
+				<div class="wrapper-content__footer">
+					<div class="footer">
+						<div class="footer__logo">
+							<img src="src/assets/icons/icon__logo.svg" alt="footer logo">
+						</div>
+						<address class="footer__sucursal">
+							<p class="footer__sucursal-title">Sucursal Montserrat</p>
+							<div class="footer__sucursal-item">
+								<img src="src/assets/icons/icon__locate.svg" alt="icon locate" class="footer__sucursal-icon">
+								Combate delos pozos 618
+							</div>
+							<div class="footer__sucursal-item">
+								<img src="src/assets/icons/icon__phone.svg" alt="icon phone" class="footer__sucursal-icon">
+								4382-0581/8110
+							</div>
+						</address>
+						<address class="footer__sucursal">
+							<p class="footer__sucursal-title">Sucursal Belgrano</p>
+							<div class="footer__sucursal-item">
+								<img src="src/assets/icons/icon__locate.svg" alt="icon locate" class="footer__sucursal-icon">
+								Iberá 2509
+							</div>
+							<div class="footer__sucursal-item">
+								<img src="src/assets/icons/icon__phone.svg" alt="icon phone" class="footer__sucursal-icon">
+								4541-0974
+							</div>
+						</address>
+						<div class="footer__social">
+							<p>Seguinos en
+								<br>
+								Redes Sociales
+							</p>
+							<ul class="footer__menu">
+								<li class="footer__menu-item">
+									<a href="https://www.instagram.com/cortinascongreso/?hl=es" target="_blank" class="footer__menu-link">
+										<img src="src/assets/icons/icon__instagram.svg" alt="logo instagram" class="footer__menu-icon">
+									</a>
+								</li>
+								<li class="footer__menu-item">
+									<a href="https://www.facebook.com/cortinascongreso/" target="_blank" class="footer__menu-link">
+										<img src="src/assets/icons/icon__facebook.svg" alt="logo facebook" class="footer__menu-icon">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="src/js/index.js"></script>
 	</body>
 </html>

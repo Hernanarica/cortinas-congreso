@@ -5,3 +5,5 @@
 
 /* Imports de estilos de la página */
 @import "components/TheHeader.css";
+@import "components/TheFooter.css";
+@import "components/home.css";
