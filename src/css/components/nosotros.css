@@ -1,0 +1,103 @@
+.nosotros__banner {
+    background-image: url(../../assets/imgs/nosotros-tab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vw * 531 / 768);
+    max-width: 768px;
+    max-height: 531px;
+}
+
+.nosotros__text {
+    padding: 1rem 3rem 1rem 3rem;
+    margin-inline: auto;
+    color: var(--colorThree);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.nosotros__title {
+    margin: 0;
+    padding-inline: 3rem;
+    color: var(--colorThree);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.info {
+    margin: 1rem auto 0 auto;
+    max-inline-size: 300px;
+    border: 1px solid #f0f0f0;
+}
+
+.info__content {
+    padding: 0.8rem;
+    background-color: var(--bgFour);
+    margin-bottom: 1rem;
+}
+
+.info .info__content:nth-of-type(2) {
+    margin-bottom: 2rem;
+}
+
+.info__item {
+    margin-bottom: 1rem;
+}
+
+.info__title {
+    color: var(--colorThree);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.info__text {
+    padding-left: 1.1rem;
+    color: var(--colorThree);
+    font-weight: 300;
+}
+
+.info__content .info__item:nth-of-type(3) {
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .nosotros__banner {
+        background-image: url(../../assets/imgs/nosotros-pc.jpg);
+        height: calc(100vw * 696 / 1440);
+        max-width: 1440px;
+        max-height: 696px;
+    }
+
+    .nosotros__text {
+        padding: 2rem;
+        margin-inline: auto;
+        max-inline-size: 578px;
+        color: var(--colorThree);
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    .nosotros__title {
+        padding-inline: 2rem;
+        margin-inline: auto;
+        max-inline-size: 578px;
+        font-size: 1.3rem;
+    }
+
+    .info {
+        max-inline-size: 516px;
+        margin: 2rem auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--bgFour);
+        padding: 1rem;
+    }
+
+    .info__content,
+    .info .info__content:nth-of-type(2) {
+        margin-bottom: 0;
+    }
+
+    .info .info__content:nth-of-type(2) {
+        border-left: 1px solid #626262;
+    }
+}
