@@ -11,8 +11,21 @@ if (!isset($section[ $currentSection ])) {
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+					new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-M4T9D5R');</script>
+		<!-- End Google Tag Manager -->
+
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4T9D5R"
+		                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<!--		<link rel="stylesheet" href="src/css/estilos.minify.css">-->
 		<link rel="stylesheet" href="src/css/index.css">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title><?php echo $section[ $currentSection ][ "title" ]; ?></title>
@@ -65,6 +78,9 @@ if (!isset($section[ $currentSection ])) {
 		</header>
 		<main>
 			<div class="wrapper">
+				<a id="Tel" href="https://wa.me/541151333049" class="flex items-center justify-center" target="blank">
+					<img src="src/assets/icons/whatsapp.svg" alt="whatsapp" class="icon-whatsapp">
+				</a>
 				<div class="wrapper__content-main">
 					<?php
 					require_once "src/sections/{$currentSection}.php";

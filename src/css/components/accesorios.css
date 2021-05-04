@@ -1,0 +1,29 @@
+.accesorios {
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-inline-size: 1311px;
+    padding: 3rem;
+}
+
+.accesorio__container {
+    max-inline-size: 320px;
+    inline-size: 100%;
+    margin-inline: auto;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 2rem;
+}
+
+.accesorio__image {
+    margin: 0;
+}
+
+.accesorio__info {
+    padding: 1rem;
+}
+
+.accesorio__title {
+    color: #df7221;
+    font-weight: 900;
+}

@@ -1,0 +1,33 @@
+.plegadizas {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plegadizas__image {
+    margin: 0;
+    font-size: 0;
+}
+
+.plegadizas__container {
+    border: 1px solid #f2f2f2;
+    margin-bottom: 2rem;
+    max-inline-size: 320px;
+}
+
+.plegadizas__info {
+    padding: 1rem;
+}
+
+.plegadizas__title {
+    color: #df7221;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 696px) {
+    .plegadizas {
+        padding: 3rem;
+        justify-content: space-between;
+    }
+}

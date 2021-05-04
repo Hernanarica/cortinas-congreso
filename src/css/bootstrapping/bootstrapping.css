@@ -16,3 +16,36 @@
 body {
     margin: 0;
 }
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+#Tel {
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+    background-color: #25d366;
+    border-radius: 34px 8px 34px 34px;
+    -webkit-box-shadow: 0 5px 4px 0 rgba(0, 0, 0, .26);
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, .26);
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-whatsapp {
+    inline-size: 32px;
+}

@@ -162,11 +162,12 @@
 }
 
 .clients {
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 .clients__title {
-    display: none;
+    text-align: center;
+    display: block;
 }
 
 .clients__image {

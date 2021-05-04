@@ -40,7 +40,7 @@
 			<div class="description">
 				<h3 class="description__title">Cortinas de PVC</h3>
 				<p class="description__text">Son una alternativa a tener en cuenta por su bajo costo y mantenimiento</p>
-				<a href="#" class="description__btn">
+				<a href="index.php?s=persianas" class="description__btn">
 					<img src="src/assets/icons/icon__eye.svg" alt="icon eye" class="description__icon">
 					Ver más
 				</a>
@@ -54,7 +54,7 @@
 				<p class="description__text">La belleza de la madera proporciona una agradable sensación ambiental gracias a sus vetas y tonalidades a la par de ser un resistente
 					cerramiento para sus ventanas.
 				</p>
-				<a href="#" class="description__btn">
+				<a href="index.php?s=persianas" class="description__btn">
 					<img src="src/assets/icons/icon__eye.svg" alt="icon eye" class="description__icon">
 					Ver más
 				</a>
@@ -66,7 +66,7 @@
 			<div class="description">
 				<h3 class="description__title">Cortinas Barriot</h3>
 				<p class="description__text">Permiten regular el paso de la luz manteniendo la misma privacidad a través de la posición de las varillas.</p>
-				<a href="#" class="description__btn">
+				<a href="index.php?s=persianas" class="description__btn">
 					<img src="src/assets/icons/icon__eye.svg" alt="icon eye" class="description__icon">
 					Ver más
 				</a>
