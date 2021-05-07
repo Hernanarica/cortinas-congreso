@@ -1,11 +1,11 @@
 <section class="nosotros">
-	<div class="nosotros__banner"></div>
+	<h2 class="nosotros__title">¡Cortinas congreso, tu casa amiga!</h2>
 	<p class="nosotros__text">
 		Somos una empresa familiar con más de 20 años de experiencia, llevamos garantía de confianza a los hogares.
 		<br>
 		Trabajamos con las marcas líderes de la industria, asegurando la mejor calidad de nuestros productos y servicios.
 	</p>
-	<p class="nosotros__title">Tenemos 2 sucursales en CABA:</p>
+	<p class="nosotros__title2">Contamos con 2 oficinas de atención</p>
 	<div class="info">
 		<div class="info__content">
 			<div class="info__item">

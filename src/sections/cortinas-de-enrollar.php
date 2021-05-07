@@ -9,15 +9,15 @@
 				<div class="persiana__items">
 					<p>
 						<img src="src/assets/icons/icon__check.svg" alt="check icon">
-						Limpieza fácil.
-					</p>
-					<p>
-						<img src="src/assets/icons/icon__check.svg" alt="check icon">
 						Material ignifugo.
 					</p>
 					<p>
 						<img src="src/assets/icons/icon__check.svg" alt="check icon">
-						Resistencia al agua.
+						Fácil mantenimiento.
+					</p>
+					<p>
+						<img src="src/assets/icons/icon__check.svg" alt="check icon">
+						Resistencia al sol y al agua.
 					</p>
 				</div>
 				<p class="persianas__description">
@@ -34,7 +34,7 @@
 					Marrón y Gris Metálico).
 				</p>
 				<div class="persianas__footer">
-					<p>También contamos con modelos Piccolla y modelo Curva</p>
+					<p>También contamos con modelos Piccolla y modelo Curva.</p>
 				</div>
 			</div>
 		</div>
@@ -42,8 +42,9 @@
 	<div class="persiana__banner">
 		<div class="persiana__container">
 			<div class="persiana__info">
-				<h2 class="persiana__title">De Madera</h2>
-				<p class="persiana__text">Compuesta por varillas que se unen entre sí, conformando una cortina de cierre hermético.
+				<h2 class="persiana__title">Persianas de madera</h2>
+				<p class="persiana__text">La belleza de la madera proporciona un ambiente cálido, gracias a sus vetas y tonalidades a la par de ser un resistente cerramiento para sus
+					ventanas.
 				</p>
 				<div class="persiana__items">
 					<p>
@@ -60,8 +61,14 @@
 					</p>
 				</div>
 				<div class="persianas__footer">
-					<p>Tipos de madera: Kiri, Cedro y Raulí Chileno.</p>
-					<p>Colores: Barnizado o pintado con esmalte sintético.</p>
+					<p>
+						<strong>Tipos de madera:</strong>
+						Kiri, Cedro y Raulí Chileno.
+					</p>
+					<p>
+						<strong>Colores:</strong>
+						Barnizado o pintado con esmalte sintético. Tonos a elección.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -84,11 +91,18 @@
 					</p>
 					<p>
 						<img src="src/assets/icons/icon__check.svg" alt="check icon">
-						Posee 3 posiciones.
+						Seguridad y Privacidad.
 					</p>
 				</div>
 				<div class="persianas__footer">
-					<p>Tipos de madera: Kiri, Cedro y Raulí Chileno.</p>
+					<p>
+						<strong>Tipos de madera:</strong>
+						Kiri, Cedro y Raulí Chileno.
+					</p>
+					<p>
+						<strong>Colores:</strong>
+						Barnizado o pintado cone esmalte sintético.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -96,21 +110,22 @@
 	<div class="persiana__banner">
 		<div class="persiana__container">
 			<div class="persiana__info">
-				<h2 class="persiana__title">De Aluminio</h2>
-				<p class="persiana__text">Fabricadas en aluminio laminado rellenas con espuma de poliuretano, posee buena rigidez y favorece el ahorro energético.
+				<h2 class="persiana__title">Persianas De Aluminio</h2>
+				<p class="persiana__text">Fabricadas en aluminio laminado rellenas con espuma de poliuretano, lo que le permite tener mayor aislación térmica y acústica en comparación
+					con las demás persianas.
 				</p>
 				<div class="persiana__items">
 					<p>
 						<img src="src/assets/icons/icon__check.svg" alt="check icon">
-						Gran aislante térmico y acústico.
+						aislación térmica y acústica.
 					</p>
 					<p>
 						<img src="src/assets/icons/icon__check.svg" alt="check icon">
-						Muy resistentes al viento.
+						Resistencia y durabilidad.
 					</p>
 					<p>
 						<img src="src/assets/icons/icon__check.svg" alt="check icon">
-						Muy resistentes al viento.
+						Seguridad máxima.
 					</p>
 				</div>
 			</div>
@@ -120,8 +135,8 @@
 		<div class="persiana__container">
 			<div class="persiana__info">
 				<h2 class="persiana__title">Automatizadas</h2>
-				<p class="persiana__text">El nuevo sistema con motor tubular permite optimizar la estética de un hogar moderno, para que también los niños y personas de edad no tengan
-					dificultad a la hora de accionar los mecanismos.
+				<p class="persiana__text">El nuevo sistema de automatización con motores eléctricos te permite subir y bajar tu persiana sin necesidad de hacer esfuerzo alguno. Ideal
+					para un hogar con niños y persona mayores.
 				</p>
 				<div class="persiana__items">
 					<p>
@@ -130,34 +145,11 @@
 					</p>
 					<p>
 						<img src="src/assets/icons/icon__check.svg" alt="check icon">
-						Rápidez y comodidad.
+						Máxima comodidad.
 					</p>
 					<p>
 						<img src="src/assets/icons/icon__check.svg" alt="check icon">
-						Garantía de 12 meses.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="persiana__banner">
-		<div class="persiana__container">
-			<div class="persiana__info">
-				<h2 class="persiana__title">Venecianas</h2>
-				<p class="persiana__text">Fabricadas en lama de 16 mm y 25 mm de Aluminio
-				</p>
-				<div class="persiana__items">
-					<p>
-						<img src="src/assets/icons/icon__check.svg" alt="check icon">
-						Indeformable.
-					</p>
-					<p>
-						<img src="src/assets/icons/icon__check.svg" alt="check icon">
-						Comodidad.
-					</p>
-					<p>
-						<img src="src/assets/icons/icon__check.svg" alt="check icon">
-						Garantía de 12 meses.
+						Elegancia y estilo.
 					</p>
 				</div>
 			</div>

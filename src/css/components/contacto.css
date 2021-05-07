@@ -151,4 +151,9 @@ textarea {
     .contact .info__content .info__item:nth-of-type(4) {
         order: 4;
     }
+
+    .contact__mapa {
+        inline-size: 100%;
+        block-size: 300px;
+    }
 }

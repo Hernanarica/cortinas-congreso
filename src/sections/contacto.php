@@ -1,7 +1,7 @@
 <section class="contact">
 	<div class="contact1">
 		<h2 class="contact__title">¡Hablemos!</h2>
-		<p class="contact__text">Llena el formulario con los datos solicitados y te armamos le presupuesto.</p>
+		<p class="contact__text">Envíanos tu consulta y te contestaremos a la brevedad.</p>
 		<form action="src/sections/correo.php" method="post" class="form">
 			<div class="form__item">
 				<label for="nombre" class="form__label sr-only"></label>

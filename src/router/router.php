@@ -3,17 +3,17 @@ $section = [
 	"home"               => [
 		"title" => "Bienvenido a Cortinas Congreso"
 	],
-	"nosotros"           => [
-		"title" => "Más sobre nosotros"
+	"quienes-somos"           => [
+		"title" => "Quienes somos"
 	],
-	"persianas"          => [
-		"title" => "Persianas"
+	"cortinas-de-enrollar"          => [
+		"title" => "Cortinas de enrollar"
 	],
-	"puertas-plegadizas" => [
-		"title" => "Puertas plegadizas"
+	"herrajes-y-accesorios" => [
+		"title" => "Herrajes y Accesorios"
 	],
-	"accesorios"         => [
-		"title" => "Accesorios"
+	"interiores"         => [
+		"title" => "Interiores"
 	],
 	"contacto"           => [
 		"title" => "Contacto"

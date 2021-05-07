@@ -11,21 +11,31 @@ if (!isset($section[ $currentSection ])) {
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="description" content="Venta y servicio técnico de cortinas de enrollar en madera y pvc">
+		<link rel="shortcut icon" href="src/assets/imgs/cortinasFav.png" type="image/x-icon">
 		<!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-					new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-			})(window,document,'script','dataLayer','GTM-M4T9D5R');</script>
+		<script>(function (w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({
+					'gtm.start':
+						new Date().getTime(), event: 'gtm.js'
+				});
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', 'GTM-M4T9D5R');</script>
 		<!-- End Google Tag Manager -->
-
 		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4T9D5R"
-		                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4T9D5R" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
 		<!-- End Google Tag Manager (noscript) -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-<!--		<link rel="stylesheet" href="src/css/estilos.minify.css">-->
+		<!--		<link rel="stylesheet" href="src/css/estilos.minify.css">-->
 		<link rel="stylesheet" href="src/css/index.css">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title><?php echo $section[ $currentSection ][ "title" ]; ?></title>
@@ -46,7 +56,7 @@ if (!isset($section[ $currentSection ])) {
 									<a href="index.php?s=home" class="header__link header__link--hover">Home</a>
 								</li>
 								<li class="header__item">
-									<a href="index.php?s=nosotros" class="header__link header__link--hover">Nosotros</a>
+									<a href="index.php?s=quienes-somos" class="header__link header__link--hover">Quienes somos</a>
 								</li>
 								<li class="header__item">
 									<a href="#" class="header__link header__link--hover">Productos
@@ -54,13 +64,13 @@ if (!isset($section[ $currentSection ])) {
 									</a>
 									<ul class="header__submenu">
 										<li class="header__submenu-item">
-											<a href="index.php?s=persianas" class="header__submenu-link">Persianas</a>
+											<a href="index.php?s=cortinas-de-enrollar" class="header__submenu-link">Cortinas de Enrollar</a>
 										</li>
 										<li class="header__submenu-item">
-											<a href="index.php?s=puertas-plegadizas" class="header__submenu-link">Puertas plegadizas</a>
+											<a href="index.php?s=herrajes-y-accesorios" class="header__submenu-link">Herrajes y Accesorios</a>
 										</li>
 										<li class="header__submenu-item">
-											<a href="index.php?s=accesorios" class="header__submenu-link">Accesorios</a>
+											<a href="index.php?s=interiores" class="header__submenu-link">Interiores</a>
 										</li>
 									</ul>
 								</li>
@@ -77,6 +87,27 @@ if (!isset($section[ $currentSection ])) {
 			</div>
 		</header>
 		<main>
+			<?php if ($currentSection === "home"): ?>
+				<div class="main__hero">
+					<h2 class="hero__title">Persianas de Enrollar
+						<br>
+						en Madera y PVC
+					</h2>
+				</div>
+			<?php endif; ?>
+			<?php if ($currentSection === "quienes-somos"): ?>
+				<div class="nosotros__banner"></div>
+			<?php endif; ?>
+			<?php if ($currentSection === "herrajes-y-accesorios"): ?>
+				<div class="accesorios__body">
+					<div class="accesorios__body-container">
+						<div class="accesorios__title">Herrajes y Accesorios</div>
+						<div class="accesorios__text">Todo lo que necesitas para tus Cortinas de Enrollar. Todos nuestros productos son de la máxima calidad. fabricados por la industria
+							nacional.
+						</div>
+					</div>
+				</div>
+			<?php endif; ?>
 			<div class="wrapper">
 				<a id="Tel" href="https://wa.me/541151333049" class="flex items-center justify-center" target="blank">
 					<img src="src/assets/icons/whatsapp.svg" alt="whatsapp" class="icon-whatsapp">

@@ -1,46 +1,29 @@
 <section class="main">
-	<div class="main__hero">
-		<h2 class="hero__title">Persianas de Enrollar
-			<br>
-			en Madera y PVC
-		</h2>
-	</div>
-	<div class="main__intro">
-		<p class="main__intro-text">Nos dedicamos a la venta, reparación y colocación de cortinas, te brindamos asesoramiento técnico y mano de obra de calidad.</p>
-	</div>
 	<div class="services">
 		<div class="service">
-			<img src="src/assets/icons/icon__cortinas.svg" alt="image service">
-			<h3>Cortinas
-				<br>
-				de enrollar
-			</h3>
+			<img src="src/assets/icons/free.svg" alt="image service">
+			<div class="service__info">
+				<h3 class="service__title">Presupuesto sin cargo</h3>
+				<p class="service__text">Tomamos las medidas</p>
+			</div>
 		</div>
 		<div class="service">
-			<img src="src/assets/icons/icon__enrollador.svg" alt="image service">
-			<h3>Accesorios
-				<br>
-				y repuestos
-			</h3>
-		</div>
-		<div class="service">
-			<img src="src/assets/icons/icon__plegadiza.svg" alt="image service">
-			<h3>Puertas
-				<br>
-				plegadizas
-			</h3>
+			<img src="src/assets/icons/llave-inglesa.svg" alt="image service">
+			<div class="service__info">
+				<h3 class="service__title">Servicio técnico</h3>
+				<p class="service__text">Renovaciones y Mantenimiento</p>
+			</div>
 		</div>
 	</div>
-	<div class="main__intro2">
-		<p class="main__intro2-text">¿Necesitas una puerta plegadiza, renovar una persiana o algún accesorio?
-		</p>
+	<div class="main__intro">
+		<p class="main__intro-text">Nos dedicamos a la venta, reparación y colocación de cortinas, te brindamos asesoramiento técnico y productos de calidad.</p>
 	</div>
 	<div class="banner">
 		<div class="description__content">
 			<div class="description">
-				<h3 class="description__title">Cortinas de PVC</h3>
-				<p class="description__text">Son una alternativa a tener en cuenta por su bajo costo y mantenimiento</p>
-				<a href="index.php?s=persianas" class="description__btn">
+				<h3 class="description__title">Cortinas de Enrollar</h3>
+				<p class="description__text">Elegí la opción que más te guste para tu hogar: PVC, Madera, Barriot o Aluminio.</p>
+				<a href="index.php?s=cortinas-de-enrollar" class="description__btn">
 					<img src="src/assets/icons/icon__eye.svg" alt="icon eye" class="description__icon">
 					Ver más
 				</a>
@@ -50,11 +33,9 @@
 	<div class="banner2">
 		<div class="description__content">
 			<div class="description">
-				<h3 class="description__title">Cortinas Madera</h3>
-				<p class="description__text">La belleza de la madera proporciona una agradable sensación ambiental gracias a sus vetas y tonalidades a la par de ser un resistente
-					cerramiento para sus ventanas.
-				</p>
-				<a href="index.php?s=persianas" class="description__btn">
+				<h3 class="description__title">Herrajes y Accesorios</h3>
+				<p class="description__text">Encontrá todos los repuestos para las Cortinas de Enrollar: Poleas, Ejes, Reductores de peso, Enrolladores y más.</p>
+				<a href="index.php?s=herrajes-y-accesorios" class="description__btn">
 					<img src="src/assets/icons/icon__eye.svg" alt="icon eye" class="description__icon">
 					Ver más
 				</a>
@@ -64,9 +45,9 @@
 	<div class="banner3">
 		<div class="description__content">
 			<div class="description">
-				<h3 class="description__title">Cortinas Barriot</h3>
-				<p class="description__text">Permiten regular el paso de la luz manteniendo la misma privacidad a través de la posición de las varillas.</p>
-				<a href="index.php?s=persianas" class="description__btn">
+				<h3 class="description__title">Interiores</h3>
+				<p class="description__text">Dale estilo a tu hogar con Puertas Plegadizas y Venecianas Americanas.</p>
+				<a href="index.php?s=interiores" class="description__btn">
 					<img src="src/assets/icons/icon__eye.svg" alt="icon eye" class="description__icon">
 					Ver más
 				</a>
