@@ -42,6 +42,7 @@ if (!isset($section[ $currentSection ])) {
 	</head>
 	<body>
 		<header>
+			<div class="header__announcement">¡ATENCIÓN! NOS MUDAMOS A ADOLFO ALSINA 1814</div>
 			<div class="wrapper">
 				<div class="wrapper-content__header">
 					<div class="header">
@@ -130,7 +131,7 @@ if (!isset($section[ $currentSection ])) {
 							<p class="footer__sucursal-title">Sucursal Montserrat</p>
 							<div class="footer__sucursal-item">
 								<img src="src/assets/icons/icon__locate.svg" alt="icon locate" class="footer__sucursal-icon">
-								Combate delos pozos 618
+								Adolfo Alsina 1814
 							</div>
 							<div class="footer__sucursal-item">
 								<img src="src/assets/icons/icon__phone.svg" alt="icon phone" class="footer__sucursal-icon">
@@ -146,6 +147,13 @@ if (!isset($section[ $currentSection ])) {
 							<div class="footer__sucursal-item">
 								<img src="src/assets/icons/icon__phone.svg" alt="icon phone" class="footer__sucursal-icon">
 								4541-0974
+							</div>
+						</address>
+						<address class="footer__sucursal">
+							<p class="footer__sucursal-title">Sucursal Palermo</p>
+							<div class="footer__sucursal-item">
+								<img src="src/assets/icons/icon__locate.svg" alt="icon locate" class="footer__sucursal-icon">
+								Charcas 5184
 							</div>
 						</address>
 						<div class="footer__social">
