@@ -147,3 +147,11 @@
 }
 
 /* -------- (Animations) -------- */
+
+.header__announcement {
+    background-color: #ffc107;
+    color: #262626;
+    text-align: center;
+    font: 700 1rem var(--fontBase);
+    padding: 0.6rem 1rem;
+}

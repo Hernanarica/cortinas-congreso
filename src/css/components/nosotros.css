@@ -114,3 +114,11 @@
         border-left: 1px solid #626262;
     }
 }
+
+.nosotros .info__content { margin-bottom: 1rem; }
+.nosotros .info__content:last-child { margin-bottom: 0; }
+@media screen and (min-width: 768px) {
+    .nosotros .info { max-inline-size: 850px; }
+    .nosotros .info__content { flex: 1; min-width: 0; margin-bottom: 0; }
+    .nosotros .info__content + .info__content { border-left: 1px solid #626262; }
+}

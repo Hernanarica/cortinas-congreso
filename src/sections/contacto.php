@@ -27,7 +27,7 @@
 	</div>
 	<div class="contact2">
 		<iframe
-			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.532258086026!2d-58.39528408417845!3d-34.61598746565556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccade0cd6f6c3%3A0x6e751dcfa4f55201!2sCombate%20de%20los%20Pozos%20618%2C%20C1222%20AAD%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1620048859770!5m2!1ses-419!2sar"
+			src="https://maps.google.com/maps?q=Adolfo%20Alsina%201814%2C%20Buenos%20Aires%2C%20Argentina&amp;output=embed" title="Ubicación sucursal Montserrat"
 			class="contact__mapa" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		<div class="info">
 			<div class="info__content">
@@ -37,7 +37,7 @@
 						Sucursal Montserrat:
 					</div>
 					<div class="info__text">
-						Combate de los pozos 618.
+						Adolfo Alsina 1814.
 					</div>
 				</div>
 				<div class="info__item">
